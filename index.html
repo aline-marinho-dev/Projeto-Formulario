@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <div class="content">
+        <header>
+            <img src="/assets/img/logo.png" style="width: 400px; transform: rotate(90deg);" alt="logo">
+            <!-- <h1>RESILIA</h1> -->
+        </header>
+        <div class="container">
+            <h3>CADASTRO ALUNO</h3>
+            <div class="conteudo">
+                <form id="formulario">
+                
+                    <div class="comp_campo">
+                        <label for="cNome" class="texto"> 
+                            Nome:
+                        </label>
+                        <div class="campo">
+                            <input type="text" name="tNome" id="cNome" size="25" maxlength="30" placeholder="Nome completo"/> 
+                        </div>
+                    </div> 
+                    <div class="comp_campo">
+                        <label for="cmail" class="texto"> 
+                            E-mail:
+                        </label>
+                        <div class="campo">
+                            <input type="email" name="tMail" id="cMail" size="25" maxlength="30" placeholder="E-mail"/> 
+                        </div>
+                        
+                    </div> 
+                    <div class="comp_campo">
+                        <label for="cCelular" class="texto"> 
+                            Celular/Whatsapp:
+                        </label>
+                        <div class="campo">
+                            <input type="numero" name="tNunero" id="cnumero" size="10" maxlength="15" placeholder="Celular"/> 
+                        </div>
+                        
+                    </div> 
+                    <div class="comp_campo">
+                        <label for="cCpf" class="texto"> 
+                            CPF:
+                        </label>
+                        <div class="campo">
+                            <input type="numero" name="tnumerocpf" id="cnumerocpf" size="15" placeholder="000.000.000-00"
+                            min="00000000001"
+                            max="999999999"
+                            aria-placeholder="Somente números sem pontos e traços"
+                            autocomplete="none"
+                            required/> 
+                        </div>
+                        
+                    </div> 
+                    
+                    
+                    <div class="submeter">
+                        <button type="submit">ENVIAR</button>
+                    </div>
+                </form>
+                
+            </div>
+            <img src="/assets/img/cidade.jpg" alt="cidade">
+            
+            
+        </div>
+        
+        <footer>
+            <p>copyright &copy; 2022 - Aline Marinho</p>
+        </footer>
+    </div>
+</body>
+</html>
